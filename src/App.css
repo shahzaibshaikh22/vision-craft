@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Navbar css start */
+.linkHover:hover{
+    color: gray;
+    transition: all .2s ease-in;
+    border-bottom: 2px solid red;
+}
+body,html{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 300px;
+    transition: all .3s ease;
+    position: fixed;
+    top: 7%;
+    right: 0;
+    z-index: 999;
+    transform: translateX(100%);
+
+}
+.showNav{
+    transform: translateX(0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* navbar css ends */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Home css Start */
+.mainGradient{
+    background-image: linear-gradient(to right bottom , #E11D48, #7C3AED);
+}
+.mainHeading {
+    background-image: linear-gradient(to right bottom , #E11D48, #7C3AED);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .panals .panal1{
+    width: 500px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.042);
+    position: absolute;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    rotate: 50deg;
   }
-  to {
-    transform: rotate(360deg);
+  .panals .panal2{
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 0, 0, 0.042);
+    position: absolute;
+    border-radius: 50%;
+    top: -100px;
+    right: -200px;
+    /* z-index: 50; */
+    rotate: 50deg;
   }
-}
+/* Home css Ends */
+
+
