@@ -1,9 +1,11 @@
 import React from 'react'
 import { FaChevronRight } from 'react-icons/fa'
+import Collab from './Collab'
 
 const Home = () => {
   return (
-   <section className='w-full md:h-[80vh] h-auto md:py-0 py-10 mt-20'>
+  <>
+     <section className='w-full md:h-[80vh] h-auto md:py-0 py-10 mt-20'>
     <div className='panals'>
         <div className='md:block hidden panal1'></div>
         <div className='md:block hidden panal2'></div>
@@ -22,7 +24,9 @@ const Home = () => {
             <img className='w-full' src='./images/visioncraft1.svg' alt='visioncraft'/>
         </div>
     </div>
-   </section>
+    </section>
+    <Collab/>
+  </>
   )
 }
 
