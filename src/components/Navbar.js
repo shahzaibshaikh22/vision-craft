@@ -22,7 +22,7 @@ const Navbar = () => {
     })
   return (
    <>
-    <nav className={`flex ${fixNav} py-4 w-full max-w-[1400px]  md:px-10 px-6  mx-auto items-center justify-between fixed z-10 top-0 left-0 right-0`}>
+    <nav className={`flex ${fixNav} py-4 w-full   md:px-10 px-6  mx-auto items-center justify-between fixed z-10 top-0 left-0 right-0`}>
         <div className='flex items-center gap-20'>
              <h2 className='text-2xl font-bold text-rose-600'>Vision-Craft</h2>
              <ul className='md:flex hidden items-center gap-8'>

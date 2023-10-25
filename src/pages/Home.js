@@ -2,6 +2,7 @@ import React from 'react'
 import { FaChevronRight } from 'react-icons/fa'
 import Collab from './Collab'
 import Services from './Services'
+import Feature from './Feature'
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
     </section>
     <Collab/>
     <Services/>
+    <Feature/>
   </>
   )
 }

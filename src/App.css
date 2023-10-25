@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.color2{
+  color: #8936D6;
+}
+
 
 /* Navbar css start */
 .linkHover:hover{
@@ -89,6 +93,36 @@ body,html{
   background-color: white;
   background-image: linear-gradient(to top, white 0%, white 30%, rgb(250, 248, 248) 70%);
 }
+
+.btn-ripple {
+  @apply relative overflow-hidden;
+
+  /* Base button styles */
+  @apply  text-rose-600 py-2 px-6 rounded-md transition-all;
+
+  /* Ripple effect styles */}
+
+.btn-ripple::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(255, 167, 167);
+  transform: scale(0);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.btn-ripple:hover::before {
+  width: 100%;
+  padding-top: 100%;
+  transform: scale(2);
+  opacity: 0;
+}
+
+
+
+
+
+
 
 /* Service css Ends */
 
