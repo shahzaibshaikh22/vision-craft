@@ -3,6 +3,7 @@ import { FaChevronRight } from 'react-icons/fa'
 import Collab from './Collab'
 import Services from './Services'
 import Feature from './Feature'
+import GetStart from './GetStart'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
     <Collab/>
     <Services/>
     <Feature/>
+    <GetStart/>
   </>
   )
 }

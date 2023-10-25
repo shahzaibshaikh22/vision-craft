@@ -6,7 +6,14 @@
 .color2{
   color: #8936D6;
 }
-
+.bgatach{
+  background-attachment: fixed;
+  width: 100%;
+  background-image:linear-gradient(to right bottom , #e11d48e6, #7c3aede6), url("../public/images/visioncraft10.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* Navbar css start */
 .linkHover:hover{
