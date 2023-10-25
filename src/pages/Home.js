@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaChevronRight } from 'react-icons/fa'
 import Collab from './Collab'
+import Services from './Services'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
     </div>
     </section>
     <Collab/>
+    <Services/>
   </>
   )
 }
