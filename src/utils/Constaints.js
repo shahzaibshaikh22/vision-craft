@@ -7,8 +7,8 @@ export const servicesLeft = [
     },
     {
         id:2,
-        title:"Web Designing",
-        description:"Elevate your online presence with our expert web design services. We craft stunning, user-friendly websites to boost your digital success",
+        title:"Content Production",
+        description:"Elevate your brand with captivating content. Our expert team creates compelling, on-brand material that resonates with your audience. Experience excellence",
         image:"./images/visioncraft4.png"
     },
     {

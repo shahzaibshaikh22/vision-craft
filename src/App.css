@@ -124,13 +124,30 @@ body,html{
   transform: scale(2);
   opacity: 0;
 }
-
-
-
-
-
-
-
 /* Service css Ends */
+
+
+
+
+
+/* About css Start */
+.about{
+  background-image: url("../public/images/visioncraft12.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  /* .aboutShape::before{
+    position: absolute;
+    content: ",,";
+    top: 0;
+    left: 0;
+    
+    opacity: .5;
+    border-radius: 50%;
+    z-index: -1;
+  } */
+/* About css Ends */
 
 

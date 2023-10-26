@@ -4,6 +4,7 @@ import Collab from './Collab'
 import Services from './Services'
 import Feature from './Feature'
 import GetStart from './GetStart'
+import About from './About'
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
     </div>
     </section>
     <Collab/>
+    <About/>
     <Services/>
     <Feature/>
     <GetStart/>
