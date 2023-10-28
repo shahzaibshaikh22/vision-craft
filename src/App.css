@@ -151,3 +151,52 @@ body,html{
 /* About css Ends */
 
 
+
+/* Why us start */
+.whyBox{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+  padding: .5rem;
+  position: relative;
+  /* z-index: 999; */
+  border: 1px solid #ffc2c6;
+  height: 24rem;
+}
+.whyBox::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(250, 246, 246);
+  z-index: -1;
+  transition: all .3s ease-in-out;
+  border-radius: 6px;
+}
+.whyBox:hover{
+  background-color: white;
+  color: #1b1b1b;
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+  cursor: pointer;
+}
+.whyBox:hover::before{
+  height: 100%;
+}
+.whyBox .whyHeading{
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #1b1b1b;
+  margin: .5rem 0;
+}
+.whyBox .whyDesc{
+  font-size: .9rem;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+/* Why us sends */

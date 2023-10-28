@@ -5,6 +5,7 @@ import Services from './Services'
 import Feature from './Feature'
 import GetStart from './GetStart'
 import About from './About'
+import Whyus from './Whyus'
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
     </section>
     <Collab/>
     <About/>
+    <Whyus/>
     <Services/>
     <Feature/>
     <GetStart/>
