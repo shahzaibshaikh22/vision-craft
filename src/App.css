@@ -24,6 +24,7 @@
 body,html{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    /* scroll-behavior: smooth; */
 }
 .navbar{
     width: 300px;
@@ -77,7 +78,7 @@ body,html{
     border-radius: 20%;
     top: 0;
     left: 0;
-    z-index: 50;
+    z-index: -1;
     rotate: 50deg;
   }
   .panals .panal2{
@@ -88,7 +89,7 @@ body,html{
     border-radius: 50%;
     top: -100px;
     right: -200px;
-    /* z-index: 50; */
+    z-index: -1;
     rotate: 50deg;
   }
 /* Home css Ends */
@@ -151,7 +152,6 @@ body,html{
 /* About css Ends */
 
 
-
 /* Why us start */
 .whyBox{
   background-color: white;
@@ -200,3 +200,52 @@ body,html{
   color: rgb(28, 28, 28);
 }
 /* Why us sends */
+
+
+/* Rescue Start */
+.rescueHover{
+  transition: all .3s ease-in-out;
+  position: relative;
+  transform-origin: left;
+  background-color: #F43F5E;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: .4rem;
+  z-index: 999;
+}
+.rescueHover::before{
+  position: absolute;
+  content: "Hire a Pro";
+  width: 0;
+  height: 100%;
+  transition: all .3s ease-in-out;
+  transform-origin: left;
+  left: 0;
+  top: 0;
+  background-color: #F43F5E;
+  border-radius: .375rem 0 0 .375rem;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  /* padding-left: 15px; */
+}
+.rescueHover:hover::before{
+  width: 100%;
+  background-color: white;
+  color: #F43F5E;
+  opacity: 1;
+}
+/* Rescue Ends */
+
+
+.notch{
+  position: absolute;
+  bottom: 0%;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  z-index: 999;
+}

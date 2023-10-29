@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -26,11 +26,12 @@ const Navbar = () => {
         <div className='flex items-center gap-20'>
              <h2 className='text-2xl font-bold text-rose-600'>Vision-Craft</h2>
              <ul className='md:flex hidden items-center gap-8'>
-                <Link className='text-md text-gray-700 border-b-2 border-rose-500  linkHover' to="/">Home</Link>
-                <Link className='text-md text-gray-700  linkHover' to="/">About</Link>
-                <Link className='text-md text-gray-700  linkHover' to="/">Services</Link>
-                <Link className='text-md text-gray-700  linkHover' to="/">Contact</Link>
-                <Link className='text-md text-gray-700  linkHover' to="/">Blogs</Link>
+                <Link className='text-md cursor-pointer text-gray-700 border-b-2 border-rose-500  linkHover' to="home">Home</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="About">About</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="services">Services</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="services">Testimonials</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="/">Contact</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="/">Blogs</Link>
              </ul>
         </div>
         <div className='md:block hidden'>

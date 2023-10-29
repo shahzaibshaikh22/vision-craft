@@ -1,16 +1,10 @@
 import React from 'react'
 import { FaChevronRight } from 'react-icons/fa'
-import Collab from './Collab'
-import Services from './Services'
-import Feature from './Feature'
-import GetStart from './GetStart'
-import About from './About'
-import Whyus from './Whyus'
 
 const Home = () => {
   return (
   <>
-     <section className='w-full md:h-[80vh] h-auto md:py-0 py-10 mt-20'>
+     <section name="home" className='w-full md:h-[80vh] h-auto md:py-0 py-10 mt-20'>
     <div className='panals'>
         <div className='md:block hidden panal1'></div>
         <div className='md:block hidden panal2'></div>
@@ -30,12 +24,6 @@ const Home = () => {
         </div>
     </div>
     </section>
-    <Collab/>
-    <About/>
-    <Whyus/>
-    <Services/>
-    <Feature/>
-    <GetStart/>
   </>
   )
 }

@@ -4,7 +4,7 @@ import { servicesLeft, servicesRight } from '../utils/Constaints'
 
 const Services = () => {
     return (
-        <main className='py-10'>
+        <main name="services" className='py-10'>
             <section className=' w-full my-4  h-auto  sm:px-10 px-6 py-10 bg-gray-100  overflow-hidden'>
                 <div className='flex flex-col items-center justify-center gap-4'>
                     <h5 className='text-center text-rose-600 text-md font-bold'>Our Services</h5>
