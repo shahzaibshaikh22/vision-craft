@@ -11,7 +11,7 @@ const Whyus = () => {
           <h2 className='text-4xl font-semibold text-gray-700'>Why Choose</h2>
           <h2 className='text-4xl text-gray-500'>Us</h2>
         </div>
-        <div className='w-full grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-12 lg:mt-10'>
+        <div className='w-full grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12 lg:mt-10'> 
           {WhyUs.map((elem)=>{
             const { id,title, description, iconSrc } = elem;
             return(
@@ -24,7 +24,7 @@ const Whyus = () => {
                 style={{width:"150px",height:"120px"}}>
             </lord-icon>
             <h3 className='whyHeading'>{title}</h3>
-           <div className=' h-44'>
+           <div className=' lg:h-56 h-28'>
            <p className='whyDesc'>{description}</p>
            </div>
           </div>

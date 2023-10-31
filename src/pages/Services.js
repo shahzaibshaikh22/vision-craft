@@ -12,24 +12,24 @@ const Services = () => {
                         <h2 className='text-4xl font-semibold text-gray-700'>What We</h2>
                         <h2 className='text-4xl text-gray-500'>Offer</h2>
                     </div>
-                    <div className='w-full max-w-7xl gap-4 mx-auto bg-white rounded-md px-4 drop-shadow-md py-10 justify-between flex md:flex-row flex-col  items-center'>
-                        <div className='flex  gap-4 items-center'>
+                    <div className='w-full max-w-7xl gap-4 mx-auto bg-white rounded-md px-4 drop-shadow-md py-10 justify-between flex lg:flex-row flex-col  items-center'>
+                        <div className='flex md:flex-row flex-col  gap-4 lg:items-center'>
                             <div className='mainGradient rounded-full w-24 h-24 flex items-center justify-center'>
                                 <LuMonitorSmartphone className='text-5xl text-white' />
                             </div>
                             <div className='flex flex-1 flex-col gap-1'>
                                 <h3 className='text-gray-700 font-semibold text-xl'>Plaining Information</h3>
-                                <p className='text-gray-500 w-80'>Select the right technology stack and tools to support your web development project's needs and goals</p>
+                                <p className='text-gray-500 lg:w-80'>Select the right technology stack and tools to support your web development project's needs and goals</p>
                             </div>
                         </div>
-                        <div className='bg-gray-300 p-[.3px] h-24'></div>
-                        <div className='flex  gap-4 items-center'>
+                        <div className='bg-gray-300 lg:block hidden p-[.3px] h-24'></div>
+                        <div className='flex md:flex-row flex-col  gap-4 lg:items-center'>
                             <div className='mainGradient rounded-full w-24 h-24 flex items-center justify-center'>
                                 <LuMonitorSmartphone className='text-5xl text-white' />
                             </div>
                             <div className='flex flex-1 flex-col gap-1'>
                                 <h3 className='text-gray-700 font-semibold text-xl'>Guarantee of Quality</h3>
-                                <p className='text-gray-500 w-80'>Our web development services guarantee top-quality results through rigorous testing, skilled professionals, and client-centric focus, ensuring your project's success</p>
+                                <p className='text-gray-500 lg:w-80'>Our web development services guarantee top-quality results through rigorous testing, skilled professionals, and client-centric focus, ensuring your project's success</p>
                             </div>
                         </div>
                     </div>

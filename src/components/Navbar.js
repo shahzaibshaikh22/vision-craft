@@ -24,8 +24,10 @@ const Navbar = () => {
    <>
     <nav className={`flex ${fixNav} py-4 w-full   md:px-10 px-6  mx-auto items-center justify-between fixed z-10 top-0 left-0 right-0`}>
         <div className='flex items-center gap-20'>
-             <h2 className='text-2xl font-bold text-rose-600'>Vision-Craft</h2>
-             <ul className='md:flex hidden items-center gap-8'>
+             <div className='w-40'>
+                <img className='w-full' src="./images/logo.png" alt="" />
+             </div>
+             <ul className='lg:flex hidden items-center gap-8'>
                 <Link className='text-md cursor-pointer text-gray-700 border-b-2 border-rose-500  linkHover' to="home">Home</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="About">About</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="services">Services</Link>
@@ -34,14 +36,14 @@ const Navbar = () => {
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="/">Blogs</Link>
              </ul>
         </div>
-        <div className='md:block hidden'>
+        <div className='lg:block hidden'>
             <button className='text-rose-600 bg-rose-100 px-10 py-4 rounded-full font-semibold drop-shadow-md'>
                 Get in Touch
             </button>
         </div>
     
-        {showNav === ""? (<FaBars onClick={()=>setShowNav("showNav")} className='text-rose-600 text-2xl md:hidden block cursor-pointer'/>) :(
-            <FaTimes onClick={()=>setShowNav("")} className='text-rose-600 text-2xl md:hidden block cursor-pointer'/>
+        {showNav === ""? (<FaBars onClick={()=>setShowNav("showNav")} className='text-rose-600 text-2xl lg:hidden block cursor-pointer'/>) :(
+            <FaTimes onClick={()=>setShowNav("")} className='text-rose-600 text-2xl lg:hidden block cursor-pointer'/>
         )}
    </nav>
         <div className={`navbar ${showNav} bg-rose-50 p-4 rounded-sm drop-shadow-md h-screen`}>

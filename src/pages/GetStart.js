@@ -3,7 +3,7 @@ import React from 'react'
 const GetStart = () => {
   return (
     <section className='bgatach py-10 lg:px-0 px-6'>
-        <div className='w-full max-w-6xl mx-auto  grid lg:grid-cols-2 grid-cols-1'>
+        <div className='w-full max-w-6xl mx-auto  grid lg:grid-cols-2 grid-cols-1 gap-4'>
         <div className='flex flex-col justify-center gap-2 '>
         <h5 className=' text-gray-100 text-md font-bold'>InfoBlock</h5>
         <div className='flex gap-1 items-center'>

@@ -6,8 +6,8 @@ const Home = () => {
   <>
      <section name="home" className='w-full md:h-[80vh] h-auto md:py-0 py-10 mt-20'>
     <div className='panals'>
-        <div className='md:block hidden panal1'></div>
-        <div className='md:block hidden panal2'></div>
+        <div className='slg:block hidden panal1'></div>
+        <div className='lg:block hidden panal2'></div>
     </div>
     <div className='w-full h-full grid md:grid-cols-2 grid-cols-1 max-w-[1400px] lg:px-10 px-6 mx-auto'>
         <div className='flex flex-col justify-center gap-4 h-full'>
