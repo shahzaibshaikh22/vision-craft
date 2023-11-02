@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
   return (
     <section name='About' className='w-full about lg:px-0 px-6 py-10'>
         <div className='w-full max-w-7xl mx-auto  flex flex-col items-center justify-center gap-4'>
-            <h5 className='text-center text-rose-600 text-md font-bold'>About Us</h5>
+            <h5 data-aos="fade-down" className='text-center text-rose-600 text-md font-bold'>About Us</h5>
             <div className='flex items-center justify-center gap-2 text-center'>
                 <h2 className='text-4xl font-semibold text-gray-700'>Who We</h2>
                 <h2 className='text-4xl text-gray-500'>Are</h2>

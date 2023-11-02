@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link className='text-md cursor-pointer text-gray-700 border-b-2 border-rose-500  linkHover' to="home">Home</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="About">About</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="services">Services</Link>
-                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="services">Testimonials</Link>
+                <Link className='text-md cursor-pointer text-gray-700  linkHover' to="testimonial">Testimonials</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="/">Contact</Link>
                 <Link className='text-md cursor-pointer text-gray-700  linkHover' to="/">Blogs</Link>
              </ul>

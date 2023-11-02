@@ -6,6 +6,9 @@
 .color2{
   color: #8936D6;
 }
+.color3{
+  color: #7c3aede6;
+}
 .bgatach{
   background-attachment: fixed;
   width: 100%;
@@ -24,7 +27,7 @@
 body,html{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 .navbar{
     width: 300px;
@@ -300,3 +303,53 @@ body,html{
   z-index: 999;
   rotate: 45deg;
 }
+.test{
+  position: relative;
+}
+.test::before{
+  position: absolute;
+  content: ",,";
+  top: -25%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  right: 0;
+  font-size: 5rem;
+  width: 100px;
+  height: 100px;
+  z-index:1;
+  color: #E11D48;
+}
+.contactHover{
+  width: 270px;
+}
+.contactHover:hover{
+  border: 2px solid red;
+  background-color: #F43F5E;
+}
+
+/* animations */
+
+.slideLeft1{
+  -webkit-animation: .3s ease-in-out 0s normal zoomInUp;
+  animation: .3s ease-in-out 0s normal zoomInUp;
+  -webkit-transition: 0.4s;
+  transition: .4s;
+}
+.slideRight2{
+  -webkit-animation: .3s ease-in-out .3s normal slideInLeft;
+  animation: .3s ease-in-out .3s normal slideInLeft;
+  -webkit-transition: 0.4s;
+  transition: .4s;
+}
+.zoomdown{
+  -webkit-animation: .3s ease-in-out .5s normal slideInDown;
+  animation: .3s ease-in-out .5s normal slideInDown;
+  -webkit-transition: 0.4s;
+  transition: .4s;
+}
+.slideup{
+  -webkit-animation: .3s ease-in-out 0s normal slideInUp;
+  animation: .3s ease-in-out 0s normal slideInUp;
+  -webkit-transition: 0.4s;
+  transition: .4s;
+}
+/* animations */

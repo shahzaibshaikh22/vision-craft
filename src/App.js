@@ -10,6 +10,8 @@ import Whyus from './pages/Whyus'
 import Rescue from './pages/Rescue'
 import Home from './pages/Home'
 import Testimonial from './pages/Testimonial'
+import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
    <Rescue/>
    <GetStart/>
    <Testimonial/>
+   <Contact/>
+   <Footer/>
  </>
   )
 }
